@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Lobster');
+@import '~antd/dist/antd.css';
+body{
+    margin: 0px;
+}
+.header-top{
+    width: auto;
+    height: 100px;
+    background-color: black;
+}
+.footer{
+    width: auto;
+    height: 100px;
+    background-color:gray;
+}
+
+.h1-font{
+    margin: 0px;
+    padding-top: 33px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center; 
+}
+.contentAll{
+    height: 72vh;
+    width: 100%;
+    padding: 0 50px;
+    margin-top:30px; 
+    margin-bottom:40px;
+    padding-bottom: 0 10px;
+}
+.contentLeft{
+    padding: 24px 0;
+    background: #fff;
+}
+.contentRight{
+    padding: 0 24px;
+    min-height: 280px;
+    background: #fff;
+}
+.MenuBar{
+    width:200;
+    background: #fff;
+}
+.content-div{
+    padding: 24px;
+    background: '#fff'; 
+    min-Height: 360px;
+    display: flex;
+    flex-direction: column;
+}
